@@ -78,11 +78,11 @@ const forgotPasswordMailGenContent = (username, passwordResetUrl) => {
 }
 
 
-sendMail({
-    email:user.email,
-    subject:"test",
-    mailGenContent: emailVerificarionMailGenContent(
-        username,
-        `` // verification link
-    )
-})
+// sendMail({
+//     email:user.email,
+//     subject:"test",
+//     mailGenContent: emailVerificarionMailGenContent(
+//         username,
+//         `` // verification link
+//     )
+// })
